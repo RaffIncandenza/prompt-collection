@@ -1,0 +1,21 @@
+<task> 
+• 
+( «persona: » | «audience: » | «format: » ) 
+</task>
+---
+<context> 
+
+</context>
+---
+<references> 
+
+</references>
+---
+<instructions for execution>
+
+</instructions for execution>
+---
+<constraints>
+
+</constraints>
+---
