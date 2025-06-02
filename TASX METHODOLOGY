@@ -1,0 +1,78 @@
+TASX METHODOLOGY
+
+(Task, Audience, Scenario, eXecution) ▸ Framework to refine AI prompts for targeted, actionable outputs.
+
+1. **TASK**
+
+☛ Define the core objective. Specify:
+
+    Persona (role AI should emulate, e.g., "travel planner").
+    Format (e.g., checklist, table, step-by-step guide).
+
+    → Delimiters:
+    «Task» What should the AI accomplish? Focus on precision. «/Task»
+    Example: «Task» Provide a 5-day itinerary with bus schedules «/Task».
+
+2. **AUDIENCE**
+
+☛ Describe who the output is for. Include:
+
+    Needs (e.g., budget, skill level).
+    Constraints (e.g., time, language barriers).
+
+    → Delimiters:
+    «Audience» Solo traveler, prefers cheap eats, minimal Spanish «/Audience».
+
+3. **SCENARIO**
+
+☛ Set the context. Clarify:
+
+    Location/timeframe (e.g., "next week in Mexico City").
+    Tools/resources (e.g., "only use buses, no flights").
+
+    → Delimiters:
+    «Scenario» Departing May 30, Terminal del Norte, max budget $300 «/Scenario».
+
+4. **EXECUTION**
+
+☛ Request actionable steps. Specify:
+
+    Structure (e.g., timeline, priority order).
+    Avoidances (e.g., "no tourist traps").
+
+    → Delimiters:
+    «eXecution» List steps in order: Day 1 book X, Day 2 arrange Y «/eXecution».
+
+**WHY TASX WORKS**
+
+✓ Clear Task → Prevents vague outputs.
+✓ Audience-Centric → Tailors advice.
+✓ Scenario-Specific → Adds real-world relevance.
+✓ Actionable Execution → Forces practical steps.
+
+**ITERATION PROCESS**
+
+    First output → Evaluate gaps (missing details? Off-topic?).
+
+    Refine → Adjust TASX elements (e.g., tighten «Scenario»).
+
+    Test → Run revised prompt in another LLM (e.g., Claude/Gemini).
+
+    Compare → Merge best parts of each output.
+
+**DELIMITER OPTIONS**
+
+Pick one style per prompt for consistency:
+
+    Angle tags: <task> […] </task>
+
+    Quotes: """ Task: […] """
+
+    Guillemets: «scenario» […] «/scenario»
+
+**EXAMPLE PROMPT**
+
+«Task» Plan a 3-day budget hike in Patagonia «/Task»
+«Audience» Novice hiker, needs gear rentals «/Audience»
+«Scenario» Flying to El Calafate in December «/Scenario»
+«eXecution» List daily trails, rental shops, and backup options «/eXecution»
