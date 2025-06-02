@@ -1,0 +1,39 @@
+TCREI METHODOLOGY
+
+[Thoughtfully Create Really Excellent Inputs, or Task, Context, References, Evaluate, and Iterate.]
+_____________________________________________________________
+
+1. Task ( «persona» | «format» ); """ , <task> [...] </task>
+2. Context; """ , <context> [...] </context>
+3. References; """ , <references> [...] </references>
+4. Evaluate
+5. Iterate
+______________________________________________________________
+
+» Persona & Format «
+
+✅ Think of a persona as the expertise you want the gen AI tool to draw from. You can ask the tool to take on the perspective of a science expert or an industry analyst, or ask it to create an output geared towards a specific audience, like your manager or team.
+
+✅ The format is what you want the output to look like. Want a bulleted list? Or maybe a table so you can compare results side-by-side? Include those details in your task.
+
+☛ TASK: The task is the foundation of any prompt. It’s what you’re asking the gen AI tool to do for you. 
+☛ CONTEXT: The more relevant details you include, the better your output will be.
+☛ REFERENCES: References are examples or any additional resources that resemble what you want the gen AI tool to produce.
+
+Take an ITERATIVE approach: There will be times when your prompt simply isn’t leading to the output you need. That’s where our **ABI** advice comes in: Always Be Iterating. If you find an output lacking, continue clarifying what you need until it’s just right.
+
+ITERATION METHODS:
+
+- Revisit the prompting framework: Make sure your prompt is clear about your desired task and includes a specific persona and format, plenty of context, and offers relevant references that help inform the output.
+
+- Break the prompt into shorter sentences: Instead of packing everything into a complex and lengthy prompt, address each individual step in a separate prompt until you’ve accomplished everything:
+
+	→ Prompt one: Create a bulleted list including the latest developments in the restaurant 	industry.
+
+	→ Prompt two: Summarize the trends that would specifically impact restaurants in urban areas.
+
+	→ Prompt three: Write a pros and cons list on how those developments could impact the public 	reception of a dining experience using only ingredients native to the region.
+
+- Tweak your phrasing or switch to an **analogous task**: Shift your language to explain what you mean in a different way. Or, try a different task that’s similar to what you’re trying to complete but different enough to trigger a new response.
+
+- Introduce constraints: Focus the gen AI tool’s output by adding constraints, or limitations, to your prompt. When you set boundaries for specific categories, lengths, formats, or other details in your prompt, you help the tool provide a more precise output. It’s like asking for a list of food recipes but specifying that the recipe should only use seasonal ingredients and take less than 30 minutes to prepare. Adding constraints can actually encourage more inventive, targeted results that better match your needs.
