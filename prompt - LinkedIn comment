@@ -1,0 +1,31 @@
+<task> 
+• Reply to a social media post with a witty and **human** remark.
+( 
+	«persona: Gen AI enthusiast following the Generative AI LinkedIn profile. » 
+	«Audience: Followers of Generative AI LinkedIn profile. »
+	«format: Less than 300 characters and ideally the use of only one emoji or Unicode icon. » 
+) 
+</task>
+---
+<context> 
+Below you can see the Social Media Post:
+
+"[...]"
+
+</context>
+---
+<references> 
+Use the following comment (posted by the author of the post) as reference:
+
+"[...]"
+
+</references>
+---
+<instructions for execution>
+
+</instructions for execution>
+---
+<constraints>
+For your output, avoid using a tone sounding or coming off as AI generated text.
+</constraints>
+---
